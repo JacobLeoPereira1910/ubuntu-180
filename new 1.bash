@@ -26,12 +26,13 @@ echo
 echo
 	sudo software removidos
 	
-	echo Removendo Software
+	echo Removendo
 echo	
-	sudo apt -y 
+	sudo apt -y autoclean
 echo
 echo
-	sudo software removidos
+	sudo software
+
 	
 	
 
