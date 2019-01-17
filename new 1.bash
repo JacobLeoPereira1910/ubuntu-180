@@ -1,38 +1,35 @@
 #!/bin/bash
-#Script para atualizar o GNU/Linux
+# Script para atualizar o GNU/Linux
 
-echo Atualizando as listas do Apt
-echo 
+echo Atualizando as Listas do Apt
+echo
 	sudo apt update
 echo
-echo  Listas autualizadas
+echo Listas atualizadas
 
-echo Atualizando os software
-echo 
+echo Atualizando os Software
+echo
 	sudo apt -y upgrade
 echo
-echo  Software  autualizadas
+echo Software atualizados
 
-echo Atualizando o kernel
-echo 
+echo Atualizando o Kernel
+echo
 	sudo apt -y dist-upgrade
 echo
-echo  kernel autualizado
+echo Kernel atualizados
 
 echo Removendo Software
-echo	
+echo
 	sudo apt -y autoremove
 echo
+echo Software removidos
+
+echo Limpando o Cache
 echo
-	sudo software removidos
-	
-	echo Removendo
-echo	
 	sudo apt -y autoclean
 echo
-echo
-	sudo software
-
+echo Cache Limpo
 	
 	
 
